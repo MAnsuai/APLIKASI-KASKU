@@ -40,42 +40,31 @@
                 </nav>
             </aside>
 
-            <main class="content">
-                <h1>Dashboard Data Kas</h1>
-                <div class="dashboard-cards">
-                    <div class="card">
-                        <h3>Total Siswa</h3>
-                        <p class="number">25</p>
-                    </div>
-                    <div class="card">
-                        <h3>Total Kas</h3>
-                        <p class="number">Rp 1.250.000</p>
-                    </div>
-                    <div class="card">
-                        <h3>Tagihan Belum Lunas</h3>
-                        <p class="number">8</p>
-                    </div>
-                    <div class="card">
-                        <h3>Tagihan Lunas</h3>
-                        <p class="number">17</p>
-                    </div>
-                </div>
 
-                <div class="recent-activity">
-                    <h2>Aktivitas Terbaru</h2>
-                    <ul>
-                        <li>Andi membayar kas - Rp 50.000</li>
-                        <li>Budi mendaftar sebagai siswa baru</li>
-                        <li>Cici melunasi tagihan kas</li>
-                        <li>Dedi mengedit data siswa</li>
-                    </ul>
+            <main class="content">
+                <div class="auth-container">
+                    <h2>Login</h2>
+                    <form class="auth-form">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <div class="auth-link">
+                            <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+                        </div>
+                    </form>
                 </div>
             </main>
         </div>
 
         <footer>
             <p>&copy; 2023 Aplikasi Data Kas. Semua hak dilindungi.</p>
-            <a href="login.html" class="login-btn">Login</a>
+            <a href="index.html" class="login-btn">Kembali</a>
         </footer>
     </div>
 </body>

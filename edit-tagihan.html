@@ -40,35 +40,38 @@
                 </nav>
             </aside>
 
-            <main class="content">
-                <h1>Dashboard Data Kas</h1>
-                <div class="dashboard-cards">
-                    <div class="card">
-                        <h3>Total Siswa</h3>
-                        <p class="number">25</p>
-                    </div>
-                    <div class="card">
-                        <h3>Total Kas</h3>
-                        <p class="number">Rp 1.250.000</p>
-                    </div>
-                    <div class="card">
-                        <h3>Tagihan Belum Lunas</h3>
-                        <p class="number">8</p>
-                    </div>
-                    <div class="card">
-                        <h3>Tagihan Lunas</h3>
-                        <p class="number">17</p>
-                    </div>
-                </div>
 
-                <div class="recent-activity">
-                    <h2>Aktivitas Terbaru</h2>
-                    <ul>
-                        <li>Andi membayar kas - Rp 50.000</li>
-                        <li>Budi mendaftar sebagai siswa baru</li>
-                        <li>Cici melunasi tagihan kas</li>
-                        <li>Dedi mengedit data siswa</li>
-                    </ul>
+            <main class="content">
+                <h1>Edit Data Tagihan</h1>
+                
+                <div class="form-container">
+                    <form>
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap</label>
+                            <input type="text" id="nama" name="nama" value="Andi Wijaya" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="kelas">Kelas</label>
+                            <input type="text" id="kelas" name="kelas" value="X IPA 1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="umur">Umur</label>
+                            <input type="number" id="umur" name="umur" value="15" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="tagihan">Tagihan Kas</label>
+                            <input type="number" id="tagihan" name="tagihan" value="50000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="status">Status</label>
+                            <select id="status" name="status">
+                                <option value="belum">Belum Lunas</option>
+                                <option value="lunas">Lunas</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Simpan Perubahan</button>
+                        <a href="tagihan.html" class="btn btn-danger" style="margin-left: 10px;">Batal</a>
+                    </form>
                 </div>
             </main>
         </div>
