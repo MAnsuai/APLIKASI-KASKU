@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+    <div class="container">
+        <header>
+            <div class="logo-left">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDEybS0xMCAwYTEwIDEwIDAgMSAwIDIwIDBhMTAgMTAgMCAxIDAgLTIwIDAiLz48cGF0aCBkPSJNMTIgMTZsNC00Ii8+PHBhdGggZD0iTTEyIDhsMCA4Ii8+PC9zdmc+" alt="Logo Kiri">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Cari...">
+                <button>Cari</button>
+            </div>
+            <div class="logo-right">
+                <a href="/index.html">
+                    <img src="/images/image.png" alt="">
+                </a>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Beranda</a></li>
+                        <li class="dropdown">
+                            <a href="#">Data</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/assets/html/siswa.html">Siswa</a></li>
+                                <li><a href="/assets/html/data-kas.html">Data Kas</a></li>
+                                <li><a href="/assets/html/tagihan.html">Tagihan</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+<body>
+    <!-- Ganti bagian form dengan ini -->
+<div class="auth-container">
+    <h2>Daftar</h2>
+    <form class="auth-form">
+        <div class="form-group">
+            <label for="fullname">Nama Lengkap</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Konfirmasi Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <button type="submit" class="btn">Daftar</button>
+        <div class="auth-link">
+            <p>Sudah punya akun? <a href="/assets/html/login.html">Login di sini</a></p>
+        </div>
+    </form>
+</div>
+</body>
+</html>
